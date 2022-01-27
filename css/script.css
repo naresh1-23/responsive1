@@ -1,0 +1,87 @@
+/*color = background #f8dcfc
+text #edadf7*/
+@media (max-width:7680px){
+.container{
+    background-color: #fce9fc;
+    height: 119%;
+}
+
+.info{
+    float: left;
+    width: 50%;
+    padding-left:5%;
+    padding-top: 10%;
+}
+.img{
+    float: right;
+    width: 43%;
+    margin-top: -60px;
+}
+.circle{
+    font-size: 50px;
+    float: left; 
+    color: #dca4e4;
+}
+.ring{
+    margin-left: 12%;
+    position: relative;
+}
+
+.we , .come, .soon{
+    font-size: 50px;
+    padding-left: 15%;
+}
+.we{
+    color: #dca4e4;
+    font-weight: lighter;
+}
+.come, .soon{
+    font-weight: bolder;
+}
+.coming{
+    margin-bottom: 5%;
+}
+.detail{
+    margin-left: 15%;
+    margin-right: 30%;
+    color: #dca4e4;
+}
+.inputbar{
+    margin-left: 15%;
+    margin-top: 25px;
+}
+.email{
+    width: 70%;
+    border-radius: 25px;
+    background-color: #fce6ff;
+    height: 40;
+    padding: 25px;
+}
+.submit_btn{
+    width: 100px;
+    height: 52;
+    border-radius: 25px;
+    margin-left: -105px;
+    background-color: #f293ff;
+}
+}
+@media  (max-width: 900px) {
+    .ring, .img, .info{
+        width: 100%;
+    }
+    .container{
+        height: 220%;
+    }
+    .info{
+        margin-top: 120%;
+    }
+    .img{
+        margin-top: -200%;
+    }
+    .side_img{
+        width: 100%;
+    }
+    .ring{
+        margin-left: 20%;
+    }
+}
